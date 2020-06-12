@@ -1,3 +1,3 @@
 # redesigned-umbrella
 test用リポジトリ
-テストコメント
+これでDiscordに通知いくかな
