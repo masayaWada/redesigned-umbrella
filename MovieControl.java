@@ -90,6 +90,7 @@ public class MovieControl {
             attrs = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
             final FileTime time = attrs.creationTime();
 
+            //書式
             final String pattern = "yyyy年MM月dd日 HH-mm-ss";
             final SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
 
